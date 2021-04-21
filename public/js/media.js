@@ -263,7 +263,7 @@ self.showCard('file-info-card');
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\xampp\htdocs\laravel2\my-project\resources\js\coreui\media.js */"./resources/js/coreui/media.js");
+module.exports = __webpack_require__(/*! C:\xampp\htdocs\AFRICAB_SCM\africabsupplymanagement\resources\js\coreui\media.js */"./resources/js/coreui/media.js");
 
 
 /***/ })

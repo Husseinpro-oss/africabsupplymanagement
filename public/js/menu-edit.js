@@ -115,7 +115,7 @@ this.buildSelectParent = function (data) {
 };
 
 this.updateSelectParent = function () {
-  axios.get('get-parents?menu=' + document.getElementById("menu").value).then(function (response) {
+  axios.get('/menu/element/get-parents?menu=' + document.getElementById("menu").value).then(function (response) {
     document.getElementById("parent").innerHTML = self.buildSelectParent(response.data);
   })["catch"](function (error) {
     // handle error
@@ -161,7 +161,7 @@ document.getElementById("type").onchange = function () {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\xampp\htdocs\laravel2\my-project\resources\js\coreui\menu-edit.js */"./resources/js/coreui/menu-edit.js");
+module.exports = __webpack_require__(/*! C:\xampp\htdocs\AFRICAB_SCM\africabsupplymanagement\resources\js\coreui\menu-edit.js */"./resources/js/coreui/menu-edit.js");
 
 
 /***/ })
